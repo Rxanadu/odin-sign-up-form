@@ -1,0 +1,13 @@
+li{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border: 1px solid #E5E7EB;
+}
+
+.content{
+    font-family: "Norse-Bold", sans-serif;
+    src:"./images/Norse-Bold.otf";
+}
