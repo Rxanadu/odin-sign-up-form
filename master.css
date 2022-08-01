@@ -1,13 +1,71 @@
+/*Body Content*/
+.content{
+    font-family: "Norse-Bold", sans-serif;
+    src:"./images/Norse-Bold.otf";
+
+    display: flex;
+}
+
+/*Page Background*/
+.page-bg{
+    width: 40%;
+    max-width: 40%;
+    
+}
+
+.page-bg>img{
+    position: fixed;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.page-bg>.footer{
+    position: fixed;
+    color: #E5E7EB;
+    width: 40%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+/*Form Portion*/
+
+.form-section{
+background: #F8F8F8; 
+}
+
+.form-content{
+    background: rgb(255, 255, 255); 
+	box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.3)  ; 
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
 li{
+    padding: 5px;
+    flex: 45%;
+}
+
+label{text-transform: uppercase;}
+
+input{
+    border: 1px solid #E5E7EB;
     display: flex;
     flex-direction: column;
 }
 
-input{
-    border: 1px solid #E5E7EB;
+input:focus{
+    border: 1px solid #2406d1; 
+	box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.3)  ; 
+	-webkit-box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.3)  ; 
+	-moz-box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.3)  ;
 }
 
-.content{
-    font-family: "Norse-Bold", sans-serif;
-    src:"./images/Norse-Bold.otf";
-}
+
+
