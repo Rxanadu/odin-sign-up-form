@@ -1,6 +1,7 @@
 const password = document.getElementById("pass");
 const passwordConfirm = document.getElementById("pass-confirm");
 const errorMessage = document.querySelector(".error-message");
+const submit = document.getElementById("submit");
 
   passwordConfirm.addEventListener("input", function(event){
     if(passwordConfirm.value != password.value || 
@@ -18,3 +19,12 @@ const errorMessage = document.querySelector(".error-message");
         errorMessage.setAttribute("hidden", "");
     }
   });
+
+submit.addEventListener("click", function(event){
+  if(password.value != passwordConfirm.value){
+    //do not submit
+    event.preventDefault();
+    alert("invalid");
+    
+  }
+});
