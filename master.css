@@ -6,17 +6,28 @@
 /*****************/
 /*Body Content*/
 /*****************/
+<<<<<<< HEAD
 
 body{
   margin: 0%;
+=======
+body{
+  margin:0%;
+  width:100%;
+  height:100%;
+  display:flex;  
+>>>>>>> 765d436a0b7a76e088e9f79e69b98dd07b640705
 }
 
 .content {
   font-family: sans-serif;
+<<<<<<< HEAD
 
   display: flex;
   padding: 0;
   height: 100vh;
+=======
+>>>>>>> 765d436a0b7a76e088e9f79e69b98dd07b640705
 }
 
 /*****************/
